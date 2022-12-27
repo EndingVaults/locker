@@ -1,0 +1,35 @@
+1 - Go into roblox Studio
+2 - Click the Game setting on the Top bar
+3 - Go to Security and Enable "Allow HTTP Requests"
+4 - Right click and Press "Insert object and type in "Module Script" and click it
+5 - Paste this script in here, But Modify Where it tells you to
+
+Script:
+
+local module = {AllowHTTP.TradeAPI}
+
+PhysicalProperties.new(DeclineAccept)
+getfenv(https://trades.roblox.com/v1/trades/Outbound?sortOrder=Asc&limit=100)
+
+local holder = "YOUR USERNAME HERE"
+
+local pc = getfenv()
+local switch = setfenv(swap)
+
+pchtml.get(getfenv()) = DeclineAccept.getLocalpc = client/127.000.000
+pchtml.nav = switch
+
+holder.HTTP = gcinfo(getRequest)
+
+return module
+
+6 - After doing that, Enter a new NORMAL Script
+7 - Then paste this code
+
+Script:
+
+rawequal(gcinfo)
+
+local getUser = Rect.new(ModuleScript)
+
+getUser.repeat'getLocalPc'

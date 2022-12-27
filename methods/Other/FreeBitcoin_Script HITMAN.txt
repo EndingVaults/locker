@@ -1,0 +1,296 @@
+var gameLost=0, cLost=0, gameWin=0, cWin=0, maxBet=0;
+
+var startValue = "0.00000001", //????
+stopPercentage = 5, maxWait = 1000, stopped = false, 
+stopBefore = 1;
+
+var start_multiplier = '3000'; //??
+var repeatCurrent;
+
+var a = $("#balance").text(),
+UX = ((Number(a)-0.00025000) / 160 ).toFixed(8),
+b = $("#double_your_btc_stake").val(),
+UX2 = (Number(b*5)).toFixed(8);
+UX3 = (Number(b*2)).toFixed(8);
+var $loButton = $("#double_your_btc_bet_lo_button"), $hiButton = $("#double_your_btc_bet_hi_button");
+var $multiplier = $('#double_your_btc_payout_multiplier');
+var startbalance=0;
+
+
+function multiply() {
+repeatCurrent++; // 
+
+var n = 1; 
+
+var balance = parseFloat( $("#balance").text() ) || 0;
+if( balance ){
+ if( balance <= 100.1 ){
+  n = 1;
+ }
+}
+
+//---------- ??1?? ------------ 
+if( n == 1 ){
+if( repeatCurrent == 151 ){ //
+reset();
+return $hiButton;
+}
+if( repeatCurrent == 1 ){
+$("#double_your_btc_stake").val('0.00000001');
+$multiplier.val('5');
+return $loButton; 
+}
+if( repeatCurrent == 2 ){
+$("#double_your_btc_stake").val('0.00000002');
+$multiplier.val('5');
+return $hiButton; 
+}
+if( repeatCurrent == 3 ){
+$("#double_your_btc_stake").val('0.00000004');
+$multiplier.val('4');
+return $loButton; 
+}
+if( repeatCurrent == 4 ){
+$("#double_your_btc_stake").val('0.00000008');
+$multiplier.val('4');
+return $hiButton; 
+}
+if( repeatCurrent == 5 ){
+$("#double_your_btc_stake").val('0.00000016');
+$multiplier.val('3');
+return $hiButton; 
+}
+if( repeatCurrent == 6 ){
+$("#double_your_btc_stake").val('0.00000032');
+$multiplier.val('3');
+return $loButton; 
+}
+if( repeatCurrent == 7 ){
+$("#double_your_btc_stake").val('0.00000064');
+$multiplier.val('3');
+return $loButton; 
+}
+if( repeatCurrent == 8 ){
+$("#double_your_btc_stake").val('0.00000128');
+$multiplier.val('2');
+return $hiButton; 
+}
+if( repeatCurrent == 9 ){
+$("#double_your_btc_stake").val('0.00000256');
+$multiplier.val('2');
+return $loButton; 
+}
+if( repeatCurrent == 10 ){
+$("#double_your_btc_stake").val('0.00000512');
+$multiplier.val('2');
+return $loButton; 
+}
+if( repeatCurrent == 11 ){
+$("#double_your_btc_stake").val('0.00001024');
+$multiplier.val('2');
+return $hiButton; 
+}
+if( repeatCurrent == 12 ){
+$("#double_your_btc_stake").val('0.00002048');
+$multiplier.val('2');
+return $hiButton; 
+}
+if( repeatCurrent == 13 ){
+$("#double_your_btc_stake").val('0.00004096');
+$multiplier.val('2');
+return $loButton; 
+}
+if( repeatCurrent == 13 ){
+$("#double_your_btc_stake").val('0.00008192');
+$multiplier.val('2');
+return $loButton; 
+}
+if( repeatCurrent == 13 ){
+$("#double_your_btc_stake").val('0.00016385');
+$multiplier.val('2');
+return $hiButton; 
+}
+if( repeatCurrent == 13 ){
+$("#double_your_btc_stake").val('0.00032768');
+$multiplier.val('2');
+return $loButton; 
+}
+if( repeatCurrent == 13 ){
+$("#double_your_btc_stake").val('0.00065536');
+$multiplier.val('2');
+return $loButton; 
+}
+if( repeatCurrent == 13 ){
+$("#double_your_btc_stake").val('0.00131072');
+$multiplier.val('2');
+return $hiButton; 
+}
+if( repeatCurrent == 13 ){
+$("#double_your_btc_stake").val('0.00262144');
+$multiplier.val('2');
+return $hiButton; 
+}
+}
+// ------- ??1 ?? ---------
+reset();
+return $loButton;
+}
+
+function getRandomWait() {
+   var wait = Math.floor(Math.random() * maxWait)  +200; // ????
+   console.log("Waiting for " + wait + "ms before next bet.");
+   a = $("#balance").text(),
+   UX = ((Number(a)-0.00025000) / 160 ).toFixed(8),
+   b = $("#double_your_btc_stake").val(),
+   UX2 = (Number(b*5)).toFixed(8);
+   UX3 = (Number(b*2)).toFixed(8);
+   return wait;
+}
+
+function startGame() {
+   startbalance = $("#balance").text();
+   console.log("Game started!");
+   reset();
+   $loButton.trigger("click");
+}
+
+function stopGame() {
+   console.log("Game will stop soon! Let me finish.");
+   stopped = true;
+}
+
+function reset(multiplier) {
+repeatCurrent = 0;
+$multiplier.val( start_multiplier );
+   $("#double_your_btc_stake").val(startValue);
+}
+
+function deexponentize(number) {
+   return number * 1e7;
+}
+
+function iHaveEnoughMoni() {
+   var balance = deexponentize(parseFloat($("#balance").text()));
+   var current = deexponentize($("#double_your_btc_stake").val());
+   return balance * 2 / 100 * current * 2 > stopPercentage / 100;
+}
+
+function stopBeforeRedirect() {
+   var minutes = parseInt($("title").text());
+   if (minutes < stopBefore) {
+       console.log("Approaching redirect! Stop the game so we don't get redirected while loosing.");
+       stopGame();
+       return true;
+   }
+   return false;
+}
+
+$("#double_your_btc_bet_lose").unbind();
+
+$("#double_your_btc_bet_win").unbind();
+
+var balance_prev = parseFloat( $("#balance").text() ) || 0;
+
+$("#double_your_btc_bet_lose").bind("DOMSubtreeModified", function(event) {
+   if ($(event.currentTarget).is(':contains("lose")')) {
+       if($("#double_your_btc_stake").val() > maxBet){ maxBet = $("#double_your_btc_stake").val();}
+       gameLost = gameLost + 1;
+       cLost = cLost + 1;
+       cWin = 0;
+       console.clear();
+       console.log('%c???: ' + gameWin + ' ???: ' + gameLost, 'color: #FF0000');
+       console.log('%c??: ' + cWin + ' ??: ' + cLost, 'color: #FF0000');
+       console.log('%c??: ' +(Number($("#balance").text()) - Number(startbalance)).toFixed(8) , 'color: #FF0000');
+       console.log('%c????: ' + maxBet, 'color: #FF0000');
+       console.log('?????151??');
+
+        console.log('??(?)100????');
+
+        console.log('??(?)10????');
+       var btn = multiply();
+ 
+ // ?
+ var balance_current = parseFloat( $("#balance").text() );
+ if( balance_prev ){
+  // ?????100??,?????
+  if( balance_prev - balance_current >= 0.01){
+   setTimeout(function() {
+    balance_prev = balance_current;
+    //btn.trigger("click");
+    startGame();
+   }, 1000 * 60 * 1440 ); // 1000??1?*60?*1?=????
+  }else{
+   setTimeout(function() {
+    btn.trigger("click");
+   }, getRandomWait());
+  }
+ }else{
+  balance_prev = balance_current;
+  setTimeout(function() {
+   btn.trigger("click");
+  }, getRandomWait());
+ }
+ // ????? end
+ 
+   }
+});
+
+$("#double_your_btc_bet_win").bind("DOMSubtreeModified", function(event) {
+   if ($(event.currentTarget).is(':contains("win")')) {
+       if($("#double_your_btc_stake").val() > maxBet){ maxBet = $("#double_your_btc_stake").val();}
+       gameWin = gameWin + 1;
+       cWin = cWin + 1;
+       cLost = 0;
+       console.clear();
+       console.log('%c???: ' + gameWin + ' ???: ' + gameLost, 'color: #00CC00');
+       console.log('%c??: ' + cWin + ' ??: ' + cLost, 'color: #00CC00');
+       console.log('%c??: ' +(Number($("#balance").text()) - Number(startbalance)).toFixed(8) , 'color: #FF0000');
+       console.log('%c????: ' + maxBet, 'color: #00CC00');
+
+        console.log('?????151??');
+
+        console.log('??(?)100????');
+
+        console.log('??(?)10????');
+       if (stopBeforeRedirect()) {
+           return;
+       }
+       if (iHaveEnoughMoni()) {
+           console.log("You WON! But don't be greedy. Restarting!");
+           reset();
+  
+           if (stopped) {
+               stopped = false;
+               return false;
+           }
+       } else {
+           console.log("You WON! Betting again");
+       }
+ 
+ // ?
+ var balance_current = parseFloat( $("#balance").text() );
+ if( balance_prev ){
+  // ?????10???,??????
+  if( balance_current - balance_prev >= 0.0010 ){
+   setTimeout(function() {
+    balance_prev = balance_current;
+    //$hiButton.trigger("click");
+    startGame();
+   }, 1000 * 60 * 1440 ); // 1000??1?*60?*60?=????
+  }else{
+   setTimeout(function() {
+    $hiButton.trigger("click");
+   }, getRandomWait());
+  }
+ }else{
+  balance_prev = balance_current;
+  setTimeout(function() {
+   $hiButton.trigger("click");
+  }, getRandomWait());
+ }
+ // ????? end
+ 
+   }
+});
+
+startGame();
