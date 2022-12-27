@@ -1,0 +1,7 @@
+Since roblox patched the cookie method with 1 ip = 1 cookie, here is a somewhat working work-around to it
+
+1. Get a VPN with as many locations as possible, preferably private internet access or expressvpn
+2. Lookup the person's IP and connect your VPN to a location near it
+3. Try logging in with the cookie, 50% of the time it will work
+
+https://whatismyipaddress.com/ip-lookup

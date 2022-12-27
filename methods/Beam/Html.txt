@@ -1,0 +1,11 @@
+HTML Method
+
+1) Tell victim to open any game on Roblox and make sure they have this pop up
+
+   Pic of popup: https://cdn.discordapp.com/attachments/708019811384557599/761013633610022912/unknown.png
+
+2) Once they open it, redirect them to "Elements" and tell them to copy the blue HTML which looks like this
+  "<html> / <html data-btr-loaded" on top of the actual element page, tell them to paste it in your chat
+
+3) Open the "message.txt" they sent you, their auth key is in there. Before doing anything press "Format" and press Word Wrap.
+ Once done, press CTRL+F and search for "+gameinfo" that's their auth key.

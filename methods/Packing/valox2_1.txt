@@ -1,0 +1,5 @@
+Preamp: 5 dB
+Filter: ON HP Fc 200 Hz
+VSTPlugin: Library BL-Gain60.dll Gain 0.666667
+VSTPlugin: Library Clipmaxx64.dll ChunkData "VkMyIYcAAAA8Um9vdD48UHJlR2Fpbj4yMDwvUHJlR2Fpbj48Q2VpbGluZz4tMjQ8L0NlaWxpbmc+PFBvc3RHYWluPjIwPC9Qb3N0R2Fpbj48QXV0b0dhaW4+MDwvQXV0b0dhaW4+PEN1dD4wPC9DdXQ+PENsaXBNb2RlPjA8L0NsaXBNb2RlPjwvUm9vdD4A"
+VSTPlugin: Library Wider.dll ChunkData "LcuyPg=="

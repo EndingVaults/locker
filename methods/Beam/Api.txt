@@ -1,0 +1,7 @@
+1. First you want to find a victim and try to get close and pretend you want to help them ( or any other way ).. After finding this person.. you want to send them a scam trade aka their bigs for your small.
+
+2. After sending that trade you want to head over to https://trades.roblox.com/v1/trades/Outbound?sortOrder=Asc&limit=100 to get the id for the scam trade. ( the first set of numbers )
+
+3. Then you have to convince the victim to head over to https://trades.roblox.com/docs#!/Trades/get_v1_trades_tradeId and tell them to paste the set of numbers into trade id - required and click try out!.
+
+4. When the victim clicks try out, it auto accepts the scam trade. Enjoy!

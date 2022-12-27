@@ -1,0 +1,5 @@
+# Preamp: 5 dB
+# Filter: ON HPQ Fc 310 Hz Q 33.3333
+# VSTPlugin: Library Clipmaxx64.dll ChunkData "VkMyIYgAAAA8Um9vdD48UHJlR2Fpbj41Ljc2PC9QcmVHYWluPjxDZWlsaW5nPjA8L0NlaWxpbmc+PFBvc3RHYWluPjIuNTwvUG9zdEdhaW4+PEF1dG9HYWluPjE8L0F1dG9HYWluPjxDdXQ+MDwvQ3V0PjxDbGlwTW9kZT4xPC9DbGlwTW9kZT48L1Jvb3Q+AA=="
+# VSTPlugin: Library BL-Gain60.dll Gain 0.583333
+# Filter: ON LPQ Fc 460 Hz Q 33.3333

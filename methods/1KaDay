@@ -1,0 +1,28 @@
+From what I know this method has been completely private between at least like 10 people in the CS:GO Cheating community, and since I don't care much about this method I am releasing it
+ 
+Step 1. You're going to need to buy a CS:GO hosting service and start a server. This is required, however the server will only be needed for one day and you will never have to worry about it again
+
+Step 2. Make an account at https://portal.motdgd.com/registration (it will ask you for your address and stuff, just literally use fake information
+
+Step 3. Once you have made an account, go to https://portal.motdg...hboard/overview and click on the Plugins tab. From there select and install the plugin to your server.
+Installation of the MOTDGD plugin is a bitch, but it is worth it. There are some tutorials on youtube to help install it
+ 
+Step 4. Once the plugin is installed and you see an ad when you load into your server you should be able to get the link the ad is running through
+(I havent needed to get my ad link in over 6 months or something, so I dont exactly remember where it is, but you need to find it
+ 
+Step 5. Now, if you do not already have Auto Hotkey installed, you need to install it now. It will be used for automating clicking when you AFK your computer.
+
+(Here is some code for an AHK script that will auto click on your ad link 60 times, wait 30 seconds so the ad finishes playing, and then close all the ads and restart the process.
+default keybinds: F10 to start the script, F7 to pause, F8 to close
+
+AutoClick :https://pastebin.com/YP9G9biP
+ 
+Step 6. Open a game that does not take much processing power, Press Shift+Tab to open the steam panel, goto your friends and find someone who hasnt been online in a long time and send them a message that is your ad link
+
+
+
+
+https://pastebin.com/YP9G9biP
+
+
+https://pastebin.com/YP9G9biP
