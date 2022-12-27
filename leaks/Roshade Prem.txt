@@ -1,0 +1,10 @@
+RoShade PRO
+https://roshade.com/
+ 
+HOW TO USE:
+1. Download Reshade
+https://reshade.me/
+2. Download the config files below and put them into the Reshade config location
+https://anonymfile.com/Ynkr/pro-things.zip
+https://www.virustotal.com/gui/file/924f4d055451ee7049011895f6d11234a04ad2e48ad0a5e544fbc26947d11c3f
+3. Profit
