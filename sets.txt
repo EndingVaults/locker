@@ -1,0 +1,509 @@
+360 = 0.16537
+280 = 0.16780
+270 = 0.195566
+260 = 0.175566
+250 = 0.1651
+240 = 0.16780
+230 = 0.15692
+220 = 0.165566
+210 = 0.165566
+200 = 0.16942
+190 = 0.166547
+180 = 0.19284
+170 = 0.1923111
+160 = 0.16
+150 = 0.15
+140 = 0.1223333
+130 = 0.156692
+120 = 0.143765
+110 = 0.1455
+100 = 0.130340
+90 = 0.136
+80 = 0.1347
+70 = 0.119
+60 = 0.12731
+50 = 0.127668
+40 = 0.125
+30 = 0.11
+20 = 0.12588
+10 = 0.9
+
+camlock sets
+
+4.5 Prediction ( Best for 40-150 ) Ping
+7.64 ( LaseredByLee Settings) Good for 70-60-80
+7 = 70-80 Ping
+6.7 ( Best for 100-120 Ping)
+9.6 ( Best for 30-50 ping on uppertorso)
+10.45 ( Best for  extremely Low ping )
+6.34 ( Best for 100-140 ) Ping
+5.125
+6.7 - 100 Ping sets
+7.6 -  80 ping sets 
+9 - 40 ping 
+4.563  - 150 + Ping
+7.5 - blatant
+
+smooth lock sets
+
+0.0051
+0.015
+0.0096
+
+40 - 60 
+
+close/mid
+0.156
+0.163
+0.1402
+0.10
+0.108
+0.1642
+0.132
+0.12842
+0.11394
+0.11983
+0.1832
+0.10945
+0.1384
+0.1843
+0.133
+0.18
+0.151
+0.12118333
+0.127668 (2-3taps close / mid)
+0.14314
+0.1433
+0.1435
+0.14341
+0.12845
+0.122405
+0.199384
+0.132456
+0.1211
+0.1243
+0.1945
+0.143
+(ALL CLOSE AND MID AND FAR SETS JUST ADJUST UR AIMPART) 
+0.1211
+some 60 ping close / mid sets 
+0.14377
+0.139738
+0.139
+0.183
+0.145
+0.194
+0.155
+0.127
+0.12731
+
+70 - 90 
+
+0.12875 (close/far) 
+
+ 0.1398 (far)
+0.134379 
+0.14333
+0.1433431
+0.134143
+0.137290
+0.129762
+0.1254432
+0.135928
+0.1433333333392
+
+ MID / CLOSE / FAR SETS
+JUST ADJUST UR AIMPART FOR SOME
+0.121192
+0.1923441
+0.129331234
+0.125345
+0.162231
+0.142934
+0.143324
+0.1244512
+0.193444
+
+MID / CLOSE SETS
+0.1344
+0.1365
+0.1357
+0.1355
+0.1437
+0.11923
+0.13772123
+0.12313232
+0.1332241241231
+0.1368123
+0.134123
+0.134719123
+0.15580
+0.122738
+
+20 - 40
+
+0.115
+0.15529888
+0.125918
+0.109333
+0.1025
+0.102566
+0.1088344
+0.1664398
+0.164
+0.187
+0.1145
+0.1499
+0.1230194
+0.13093
+0.10346
+0.125 (close , mid)
+
+0.125544 (far)
+
+0.12556 close and mid
+
+0.1256334444 ( far / mid ) 
+0.12875 (close/far) 
+
+0.1398 (far)
+
+0.165  (no jump sets) 
+
+0.118
+0.1419283
+0.12565
+0.138800 - 0.15300 - 0.133353 - 0.129145
+0.15580
+0.11 
+0.122738
+
+0.130340
+
+0.120342
+50 ping 
+0.120435 ; close
+0.110430 [mid range]
+0.115030
+0.112530
+0.1150331
+0.115700
+0.115210
+[super close]
+0.1293811 *
+0.12
+0.14
+0.1211928
+0.12948111
+0.182223
+0.1294
+0.12588
+0.12588244444444
+0.12654443
+0.12746444
+0.154
+0.15335
+0.134992
+0.19344443
+0.1673888
+0.1293334
+0.12122933
+0.19284
+
+fps gui sets
+
+Gothfulls sets:
+517 -0.3
+543.4 -0.3
+-----------------------
+1okVapor/imprvssed sets:
+550 -0.3
+450 0
+-----------------------
+Triot0z sets:
+675 -0.6
+-----------------------
+CT sets: 
+850 -0.6
+1200 -0.6
+^eu sets^
+-----------------------
+Faby sets:
+620
+-----------------------
+Vonix sets:
+674
+-----------------------
+6RAMES sets:
+650 -0.4
+-----------------------
+FoEBrandon sets:
+600 -0.4
+-----------------------
+BeamEmPoke sets:
+650 -0.9
+-----------------------
+TimFujii sets:
+505
+-0.6
+speed on 0.9
+-----------------------
+Swashbucklez sets:
+565 0
+640
+-----------------------
+Silents sets:
+1200 -0.5
+800  -0.3
+-----------------------
+Endos Sets 
+629 -0.8
+0.01
+-----------------------
+Miablaids sets 
+333 
+0.09
+-----------------------
+lenakis sets 
+670 -0.2
+0.03
+----------
+Drxpys sets 1650
+
+-----------------------
+ppjulian sets 
+1670 
+0.009 
+-----------------------
+1650, -0.5 , 0.084 /  ( legit sets ) : 3336, -0.3 , 0.0141
+
+100 - 140
+
+100-150 ping sets 
+100-140 ping sets                                               
+0.1659921
+0.166
+0.1455
+0.12399
+0.1655
+0.15465
+0.156692
+0.165773                                         
+0.1690
+0.1923111
+0.1235666
+0.15634
+
+110 - 140 
+
+0.156464
+0.1567677
+0.1674643
+
+140 - 180
+
+ Close / Mid range sets
+0.129934
+0.1652131
+0.125333
+0.1223333
+0.15
+0.16
+0.165455312399999 (far)
+0.16779123
+0.1235666
+0.1690
+0.1923111
+
+200 - 300
+
+far / mid sets
+
+0.165771
+0.1746
+0.1567
+0.1654
+0.18321
+0.1456
+0.165561
+0.18742
+0.16457
+0.16537
+0.12194
+
+-----------------
+
+ close sets
+
+0.16780
+0.165732
+0.15692
+0.16942
+0.19284
+0.165782
+0.19284
+0.166547
+0.1651
+0.165566
+
+
+close
+
+CLOSE SETS:
+0.12742
+1299390
+close sets
+0.12742
+1299390 
+
+
+0.1321412312412412
+0.14
+0.144
+0.123
+0.13322
+0.141, 0.1334, 0.1474, 0.1343, 0.11943
+
+mid
+
+0.157, 0.125, 0.149 , 0.151 , 0.139 , 0.135, 0.128, 0.1322, 0.1245, 0.1432
+
+30 ping far
+
+0.1158824
+
+0.11654443
+
+0.11746444
+
+20 - 40 close
+
+0.12588
+
+0.1258824
+
+0.12654443
+
+0.12746444
+
+0.1293334
+0.12588
+
+0.1258824
+
+0.12654443
+
+0.12746444
+
+0.1293334
+
+camlock :
+40 = 7.62
+50 = 7.46
+60 = 7.22
+70 = 7.02
+80 = 6.82
+90 = 6.612
+100 = 6.41
+110 = 6.18
+
+silent aim
+40 - 0.123 
+50 - 0.129
+60 - 0.135
+70 - 0.141
+80 - 0.148
+90 - 0.155
+100 - 0.163
+110 - 0.169
+
+0.1533 (no jump sets)
+
+Lowping 40-70
+0.1429
+0.135
+0.190
+0.139
+0.1323
+0.17332
+0.156
+0.161
+0.15
+0.108843
+0.1033
+all on humanoid rootpart
+
+0.138201444
+0.141245
+0.13741 
+0.15712
+0.141245
+0.155114
+0.1349182 (30-50 PING)
+
+Close op sets:
+0.15554
+0.11271 OP ASF CLOSE
+0.120104
+
+tenaki smoothing sts 0.0376, 0.0421, 0.0274
+
+THIS IS SILENT STREAMABLE
+all made by whqn
+Streamable sets:
+( there isnt really much to say ab this if u dont find these good u can experiment with diffrent 1's this is prediction value )
+accomidationfactor = 0.12567724521
+accomidationfactor = 0.14573463
+accomidationfactor = 0.14356
+accomidationfactor = 0.133
+accomidationfactor = 0.1381674
+whqn's main prediction set
+accomidationfactor = 0.13453391634
+( this is fov aka ( hit radious ) you dont want this to be huge then it will look hella unlegit beacuse u will be hitting everyone around ur target, u dont want it to low either beacuse then it ownt help much )
+ValiantAimHacks.FOV = 11
+ValiantAimHacks.FOV = 9
+ValiantAimHacks.FOV = 15
+ValiantAimHacks.FOV = 14
+whqn's main set
+ValiantAimHacks.FOV = 10
+ 
+THIS IS THE TRACING STREAMABLE
+all made by whqn
+Streamable sets:
+( the higher the smoothness the legiter it looks but not to smooth )
+BEST STREAM ABLE SMOOTHNESS SETS
+SmoothnessAmount = 0.010 
+SmoothnessAmount = 0.016
+SmoothnessAmount = 0.022
+whqn's main smoothness set =
+SmoothnessAmount = 0.012
+( more perdiction = more unlegit it looks, good 1's are between 6-8, dont add to much prediction or it looks like camlock )
+-- these look legit + are good
+PredictionVelocity = 6.992
+PredictionVelocity = 8.351
+PredictionVelocity = 7.232
+PredictionVelocity = 7.111
+more super legit 1's, they arent so good tho
+PredictionVelocity = 4.871
+PredictionVelocity = 5.314
+PredictionVelocity = 6.719
+whqn's main Prediction sets =
+PredictionVelocity = 7.450
+PredictionVelocity = 8.215
+
+( aiming fov is the same as the last one so use the same fovs i showed in the last one )
+
+( aiming hit chance is the chance that ur hitting ur target, the lower it is the more legit it looks i whould recommend keeping it over 80+ )
+Aiming.HitChance = 87
+Aiming.HitChance = 96
+Aiming.HitChance = 108
+Aiming.HitChance = 103
+Aiming.HitChance = 85
+Aiming.HitChance = 95
+Aiming.HitChance = 79
+Aiming.HitChance = 101
+whqn's main sets
+Aiming.HitChance = 110
+Aiming.HitChance = 115
+( Aiming Target Part is the part u are hitting with ur ¨streamable¨ i whould recommend using the defult or using : uppertorso,HumanoidRootPart,RightFoot,LeftFoot. if u decide to use something else remember to always have ¨RightFoot¨ and ¨LeftFoot¨ )
+
